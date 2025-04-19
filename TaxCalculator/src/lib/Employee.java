@@ -27,7 +27,7 @@ public class Employee {
 
 	private String spouseIdNumber;
 
-	private List<String> childNames;  //this
+
 	private List<String> childIdNumbers;
 	
 	public Employee(String employeeId, int yearJoined, int monthJoined, boolean isForeigner) {
@@ -83,8 +83,8 @@ public class Employee {
 		this.spouseIdNumber = spouseIdNumber;
 	}
 	
-	public void addChild(String childName, String childIdNumber) {
-		childNames.add(childName);
+	public void addChild(String childIdNumber) {
+
 		childIdNumbers.add(childIdNumber);
 	}
 	
