@@ -42,7 +42,7 @@ public class Employee {
 		this.isForeigner = isForeigner;
 
 		
-		childNames = new LinkedList<String>();
+
 		childIdNumbers = new LinkedList<String>();
 	}
 	
