@@ -10,7 +10,7 @@ public class Employee {
 	
 
 
-	private String address; //this
+
 	
 	private int yearJoined;
 	private int monthJoined;
@@ -30,12 +30,12 @@ public class Employee {
 	private List<String> childNames;  //this
 	private List<String> childIdNumbers;
 	
-	public Employee(String employeeId, String address, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, boolean gender) {
+	public Employee(String employeeId, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, boolean gender) {
 		this.employeeId = employeeId;
 
 
 
-		this.address = address; //this
+
 		this.yearJoined = yearJoined;
 		this.monthJoined = monthJoined;
 		this.dayJoined = dayJoined; //this
