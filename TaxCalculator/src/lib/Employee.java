@@ -14,7 +14,7 @@ public class Employee {
 	
 	private int yearJoined;
 	private int monthJoined;
-	private int dayJoined; //this
+
 	private int monthWorkingInYear;
 	
 	private boolean isForeigner;
@@ -30,7 +30,7 @@ public class Employee {
 	private List<String> childNames;  //this
 	private List<String> childIdNumbers;
 	
-	public Employee(String employeeId, int yearJoined, int monthJoined, int dayJoined, boolean isForeigner, boolean gender) {
+	public Employee(String employeeId, int yearJoined, int monthJoined, boolean isForeigner, boolean gender) {
 		this.employeeId = employeeId;
 
 
@@ -38,7 +38,7 @@ public class Employee {
 
 		this.yearJoined = yearJoined;
 		this.monthJoined = monthJoined;
-		this.dayJoined = dayJoined; //this
+
 		this.isForeigner = isForeigner;
 		this.gender = gender; //this
 		
